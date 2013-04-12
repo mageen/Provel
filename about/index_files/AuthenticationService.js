@@ -1,0 +1,1 @@
+_xdc_._spnzbc && _xdc_._spnzbc( [1,null,0] )

@@ -4,54 +4,11 @@
 <link rel="shortcut icon" href="images/icon.png">
 </head>
 
+<!-- RECENTLY ADDED CSS Code -->
+<link rel="stylesheet" href="css/video_background.css">
+<link rel="stylesheet" href="css/classname.css">
 
-<style type="text/css">
-#video_background {
- position: absolute;
- bottom: 0px;
- right: 0px;
- min-width: 100%;
- min-height: 100%;
- width: auto;
- height: auto;
- z-index: -1000;
- overflow: hidden; }
-</style>
-
-
-<style type="text/css">
-.classname {
-	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
-	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
-	background-color:#ededed;
-	-moz-border-radius:6px;
-	-webkit-border-radius:6px;
-	border-radius:6px;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-	color:#777777;
-	font-family:arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:1px 1px 0px #ffffff;
-}.classname:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
-	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
-	background-color:#dfdfdf;
-}.classname:active {
-	position:relative;
-	top:1px;
-}
-</style>
-
-<!-- STYLES -->
+<!-- DEFAULT STYLES -->
 <link rel="stylesheet" type="text/css" href="css/fancybox.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="css/ayumi/stylesheet.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="css/superfish.css" media="screen"/>
@@ -77,8 +34,8 @@
 
 <!-- Nav -->
 <div style="width:1000px;">
-            <nav id="nav">
-	      <img href="http://provel.co/" src="images/homepageicon.png" Alt"" width="125" height="155">
+            <nav align="right" id="nav">
+	      <img href="http://provel.co/" src="images/homepageicon.png" align="left" width="125" height="155">
                 <ul class="sf-menu movement">
                     <li>
                         <a href="/index.html">Home</a>
@@ -89,8 +46,9 @@
                     <li>
                         <a href="/projects">Projects</a>
                         <ul>
-                            <li><a href="/projects/postit">Postit</a></li>
-			    <li><a href="/projects/insignia">Insignia</a></li>
+                            <li><a href="/projects/">Postit</a></li>
+			    <li><a href="/projects/">Insignia</a></li>
+			    <li><a href="/parallax/">Parallax</a></li>
                         </ul>
                     </li>
                     <li>
